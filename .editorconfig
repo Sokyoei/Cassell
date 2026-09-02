@@ -11,5 +11,14 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+max_line_length = 120
+
+# JetBrains IDEs
+ij_editorconfig_space_after_comma = false
+# Comments
+ij_any_line_comment_at_first_column = false
+ij_any_line_comment_add_space = true
+ij_any_block_comment_add_space = true
+
 [*.{sln,csproj,csproj.filters}]
 end_of_line = crlf
